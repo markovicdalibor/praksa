@@ -113,5 +113,16 @@ label {
 span {
   color: red;
 }
+@media screen and (max-width: 900px) {
+  section {
+    grid-column: 1/6;
+    grid-row: 2/4;
+  }
+
+  aside {
+    grid-column: 1/6;
+    grid-row: 4/7;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
