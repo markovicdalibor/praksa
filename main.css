@@ -18,7 +18,7 @@ body {
 
 main {
   max-width: 100%;
-  max-height: auto;
+  max-height: 100vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: repate(6, 1fr);
