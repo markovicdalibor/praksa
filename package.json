@@ -1,0 +1,23 @@
+{
+  "name": "praksa",
+  "version": "1.0.0",
+  "description": "\u0016This is a landing page. Sass project as part of an internship at Quantox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markovicdalibor/praksa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markovicdalibor/praksa/issues"
+  },
+  "homepage": "https://github.com/markovicdalibor/praksa#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
