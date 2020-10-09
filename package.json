@@ -1,28 +1,29 @@
 {
-  "name": "praksa",
-  "version": "1.0.0",
-  "description": "\u0016This is a landing page. Sass project as part of an internship at Quantox.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/markovicdalibor/praksa.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/markovicdalibor/praksa/issues"
-  },
-  "homepage": "https://github.com/markovicdalibor/praksa#readme",
-  "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "html-webpack-plugin": "^4.5.0",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
-  },
-  "dependencies": {
-    "sass": "^1.27.0"
-  }
+    "name": "praksa",
+    "version": "1.0.0",
+    "description": "\u0016This is a landing page. Sass project as part of an internship at Quantox.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markovicdalibor/praksa.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/markovicdalibor/praksa/issues"
+    },
+    "homepage": "https://github.com/markovicdalibor/praksa#readme",
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^4.5.0",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "sass": "^1.27.0"
+    }
 }
