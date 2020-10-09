@@ -8,5 +8,6 @@ module.exports = {
             template: 'src/index.html',
             scriptLoading: 'defer'
         })
-    ]
+    ],
+    mode: 'development'
 }
