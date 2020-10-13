@@ -1,2 +1,2 @@
-import logo from "../logo.png";
-import bbg from "../bbg.png";
+import logo from "../images/logo.png";
+import bbg from "../images/bbg.png";
