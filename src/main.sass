@@ -1,0 +1,111 @@
+$bgc:linear-gradient(160deg, #000066 25%, rgba(56, 252, 247, 1) 75%, rgba(255, 255, 255, 1) 100%)
+
+$color: white
+
+@font-face
+    font-family: head1
+    src: url('fonts/Kanit.ttf')
+
+@font-face
+    font-family: head2
+    src: url('fonts/Kanit-Regular.ttf')
+
+@mixin forform
+    font-family: head2
+    color: black
+    border-radius: 4px
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background: $bgc
+    background-repeat: no-repeat
+    background-position: right top
+    background-attachment: fixed
+main
+    max-width: 100%
+    height: 100%
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    grid-auto-rows: repate(6, 1fr)
+
+header
+    display: flex
+    grid-column: 1/6
+    grid-row: 1/2
+    padding: 2rem 3rem
+    p
+        color: $color
+        margin-left: auto
+
+section
+    grid-column: 1/4
+    grid-row: 2/7
+    padding: 0 3rem
+    h1
+        color: $color
+        font-family: head1
+    h2
+        color: #1a75ff
+        font-family: head1
+    img
+        margin-left: -3rem
+        max-width: 100%
+        height: auto
+
+aside
+    grid-column: 4/6
+    grid-row: 2/7
+    width: 80%
+    height: 90%
+    margin: 0 auto
+    background-color: $color
+    border-radius: 1.5%
+    padding: 2rem
+    font-size: 1rem
+    h1
+        font-family: 'Assistant', sans-serif
+        color: F0F8FF
+        opacity: 0.5
+
+input[type=text],select 
+    @include forform
+    width: 100%
+    padding: 5px 10px
+    border: none
+    border-bottom: 1px solid #ccc
+    background-color: $color
+    &:focus
+        @include forform
+        outline: 1px solid #ccc
+
+input[type=submit]
+    @include forform
+    margin: 1rem auto
+    display: block
+    width: 60%
+    background-color: #F08080
+    color: $color
+    padding: 10px 15px
+    border: none
+    cursor: pointer
+
+label 
+    @include forform
+
+span 
+    color: red
+
+@media screen and ( max-width: 900px )
+    main
+        font-size: 12px
+        text-align: left
+    section
+        grid-column: 1/6
+        grid-row: 2/4
+    aside
+        grid-column: 1/6
+        grid-row: 4/7
+    
